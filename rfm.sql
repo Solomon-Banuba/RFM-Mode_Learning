@@ -1,5 +1,5 @@
-WITH
-  recency_and_frequency AS (
+
+WITH recency_and_frequency AS (
   SELECT
     Item_Name,
     SUM(Quantity_Sold__kilo_*Unit_Selling_Price__RMB_kg_) AS monetary,
